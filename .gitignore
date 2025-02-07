@@ -170,3 +170,5 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 /src/fillet/assets
+assets/base/fillet.exe
+assets/base/fillet_headless.exe
