@@ -199,8 +199,8 @@ def trim_install(
     if game_enum_value and game_enum_value in data_structures.get_enum_strings_from_enum(data_structures.Games):
         trim_game(install_directory, game_enum_value, skip_verification)
     else:
-        trim_game(install_directory, get_game_enum_value_automatically(), skip_verification)
+        trim_game(install_directory, get_game_enum_value_automatically(install_directory), skip_verification)
 
 
 def automatic_detection_run():
-    trim_game(file_io.SCRIPT_DIR, get_game_enum_value_automatically(), False)
+    trim_game(file_io.SCRIPT_DIR, get_game_enum_value_automatically(file_io.SCRIPT_DIR), False)
