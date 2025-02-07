@@ -1,2 +1,2 @@
 # fillet
-A work in progress tool to trim Call of Duty server installations
+A tool to trim Call of Duty server installations
