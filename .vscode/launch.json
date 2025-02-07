@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "trim_waw",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "fillet",
+            "subProcess": true,
+            "console": "externalTerminal",
+            "args": [
+                "trim_install",
+                "--install_directory",
+                "D:/fillet_testing/Call of Duty World at War",
+                "--game",
+                "Call of Duty World at War",
+                "--skip_verification",
+                "False"
+            ]
+        },
+        {
+            "name": "trim_bo1",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "fillet",
+            "subProcess": true,
+            "console": "externalTerminal",
+            "args": [
+                "trim_install",
+                "--install_directory",
+                "D:/fillet_testing/Call of Duty Black Ops",
+                "--game",
+                "Call of Duty Black Ops I",
+                "--skip_verification",
+                "False"
+            ]
+        },
+        {
+            "name": "trim_bo2",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "fillet",
+            "subProcess": true,
+            "console": "externalTerminal",
+            "args": [
+                "trim_install",
+                "--install_directory",
+                "D:/fillet_testing/Call of Duty Black Ops II",
+                "--game",
+                "Call of Duty Black Ops II",
+                "--skip_verification",
+                "False"
+            ]
+        },
+        {
+            "name": "tui",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "fillet",
+            "subProcess": true,
+            "console": "externalTerminal",
+            "args": [
+                "tui"
+            ]
+        }
+    ]
+}
